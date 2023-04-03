@@ -3,20 +3,8 @@ const miApeliido: "Perez Cardenal" = "Perez Cardenal";
 
 function formatoNombre(nombre: string, apellido: string)
 {
-    let auxNombre: string = "";
+    let auxNombre: string = nombre[0].toUpperCase() + nombre.slice(1).toLowerCase();
 
-    for(let i = 0; i < nombre.length; i++)
-    {
-
-        if (i > 0)
-        {
-            auxNombre += nombre[i].toLowerCase();
-        }
-        else
-        {
-            auxNombre = nombre[0].toUpperCase();
-        }
-    }
     console.log(`${auxNombre}, ${apellido.toUpperCase()}`);
 
 }
