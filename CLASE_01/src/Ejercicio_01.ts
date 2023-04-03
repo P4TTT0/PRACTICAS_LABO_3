@@ -1,0 +1,1 @@
+console.log(`¡Hola mundo! Puedo mostrar comillas 'SIMPLES' y comillas "DOBLES"`);
