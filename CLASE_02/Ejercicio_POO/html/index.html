@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src = "../dist/manejador.js"></script>
+    <script src = "../dist/clases/persona.js"></script>
+    <script src = "../dist/clases/alumno.js"></script>
+</head>
+<body>
+    <form>
+        <label>APELLIDO: </label>
+        <input type = "text" id = "apellido" placeholder="Apellido"><br>
+        <label>NOMBRE: </label>
+        <input type = "text" id = "nombre" placeholder="Nombre"><br>
+        <label>LEGAJO: </label>
+        <input type = "text" id = "legajo" placeholder="Legajo"><br>
+        <input type = "button" id="btnCrearAlumno" onclick="Manejador.crearAlumno()" value = "Crear alumno">
+    </form>
+</body>
+</html>
